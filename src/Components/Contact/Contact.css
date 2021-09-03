@@ -1,0 +1,70 @@
+.contactMe-section {
+    background: #fff;
+    padding: 50px 200px;
+}
+
+.contactMe-title {
+    font-size: 50px;
+}
+
+.contactMe-form {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+}
+
+.contactMe-form label {
+    width: max-content;
+    position: relative;
+    left: 15px;
+    top: 38px;
+    font-size: 23px;
+    display: flex;
+    color: rgb(142, 142, 147);
+}
+
+.contactMe-form input {
+    width: 600px;
+    height: 50px;
+    background: rgb(229, 229, 234);
+    border: 0px;
+    padding: 5px 15px;
+    box-sizing: border-box;
+}
+
+.contactMe-form input:focus {
+    outline: none;
+    border-bottom: 2px solid #7289da;
+}
+
+.contactMe-form textarea {
+    width: 600px;
+    height: 300px;
+    resize: none;
+    background: rgb(229, 229, 234);
+    border: 0px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+
+.contactMe-form textarea:focus {
+    outline: none;
+    border-bottom: 2px solid #7289da;
+}
+
+.contactMe-form button {
+    width: 200px;
+    height: 50px;
+    align-self: flex-end;
+    border: 0px;
+    background: rgb(229, 229, 234);
+    margin-top: 28px;
+    font-size: 17px;
+    color: rgb(142, 142, 147);
+}
+
+.contactMe-form button:hover {
+    transition: 0.5s;
+    color: #7289da;
+    border: 2px solid #7289da;
+}

@@ -1,0 +1,20 @@
+.abMe-section {
+    width: 100%;
+    height: 100vh;
+    /* background: #74a3df; */
+    background: #fff;
+    padding: 50px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.abMe-title {
+    color: #000;
+    font-size: 50px;
+    margin: 0px;
+    align-self: flex-start;
+}
+
+.abMe-description {
+    color: #000;
+}
